@@ -31,7 +31,7 @@ const ProductForm = () => {
         setSuccess(false);
 
         try {
-            const response = await fetch('http://localhost:3001/submit', {
+            const response = await fetch('https://nameless-waters-82317-75da4f904716.herokuapp.com/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
