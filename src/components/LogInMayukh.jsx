@@ -26,7 +26,7 @@ const LogInMayukh = () => {
     setSucces(false);
 
     try{
-      const response=await fetch("http://localhost:3001/LogInMayukh",{
+      const response=await fetch("https://nameless-waters-82317-75da4f904716.herokuapp.com/LogInMayukh",{
         method:'POST',
         headers:{
           'Content-Type':'application/json',
