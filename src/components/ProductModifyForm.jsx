@@ -29,7 +29,7 @@ const ProductModify = () => {
 
         try {
             // Make the POST request to modify the product
-            const response = await fetch('http://localhost:3001/api/products/modify', {
+            const response = await fetch('https://nameless-waters-82317-75da4f904716.herokuapp.com/api/products/modify', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
